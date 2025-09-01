@@ -1,0 +1,32 @@
+baseURL = "https://oseaspaces.github.io"
+languageCode = "en-us"
+title = "Osea Spaces"
+theme = ""
+
+[params]
+  description = "OSEA is a spatial design studio based in Amsterdam and Marseille. We specialize in interior architecture, custom furniture fabrication, set design and creative direction for private residences, retail spaces and showrooms."
+  
+  [params.contact]
+    amsterdam_address = "Oostelijke Handelskade, 12\n1018RM, Amsterdam"
+    amsterdam_phone = "+31 6 22055927"
+    marseille_address = "Rue Montaigne, 73\n13012, Marseille"  
+    marseille_phone = "+33 7 59582479"
+
+[menu]
+  [[menu.main]]
+    name = "Spaces"
+    url = "/"
+    weight = 10
+  [[menu.main]]
+    name = "About"  
+    url = "/about/"
+    weight = 20
+  [[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 30
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
