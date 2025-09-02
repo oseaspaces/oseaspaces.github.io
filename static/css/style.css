@@ -169,12 +169,6 @@ body {
   font-weight: 300;
 }
 
-/* Projects Section - Full Width */
-.projects-section {
-  background: white;
-  width: 100vw;
-}
-
 .project {
   /* gap: 0; */
   /* align-items: start; */
@@ -193,6 +187,7 @@ body {
 }
 
 .project-images {
+  background-color: #ddd;
   position: relative;
   width: 100%;
   display: flex;
@@ -304,9 +299,7 @@ body {
   text-align: left;
   font-family: Arbutusslab, Times New Roman, sans-serif;
   font-size: 22px;
-  font-weight: 400;
   line-height: 24px;
-  margin-bottom: 20px;
 }
 
 .project-meta {
@@ -329,7 +322,7 @@ body {
 }
 
 .project-content p {
-  margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 /* About Page Styles - Full Width */
