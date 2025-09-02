@@ -44,7 +44,7 @@ body {
 .hero {
   position: relative;
   height: 100vh;
-  width: 100vw;
+  width: 100%;
   overflow: hidden;
 }
 
@@ -544,10 +544,30 @@ a[href*="instagram.com/jwauw"]:hover,
 
 /* Footer - Full Width */
 .footer {
-  background: #f8f9fa;
-  padding: 60px 0 40px 0;
-  margin-top: 80px;
-  width: 100vw;
+  color: #999;
+  text-align: left;
+  border: 0 #000;
+  border-top-width: 0px;
+  border-top-style: none;
+  border-top-color: rgb(0, 0, 0);
+  border-top: 1px solid #000;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 36px;
+  padding-bottom: 36px;
+  font-size: 12px;
+  line-height: 18px;
+  display: block;
+  position: static;
+  inset: auto 0% 0%;
+  overflow: visible;
+}
+
+.container-footer {
+  max-width: 100%;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .footer-grid {
@@ -555,24 +575,38 @@ a[href*="instagram.com/jwauw"]:hover,
   grid-template-columns: 1fr 1fr;
   gap: 60px;
   margin-bottom: 40px;
-  padding: 0 60px;
   max-width: 1400px;
   margin: 0 auto;
 }
 
 .footer-section h3 {
-  font-size: 18px;
+  font-size: 20px;
   color: #333;
-  margin-bottom: 20px;
   font-weight: normal;
 }
 
-.footer-section p,
-.footer-section a {
-  font-size: 14px;
+.footer-section p {
+  padding-top: 20px;
+  font-size: 12px;
   line-height: 1.8;
-  color: #666;
+  color: #000;
   text-decoration: none;
+  letter-spacing: 0.5px;
+  margin-bottom: 16px;
+  font-weight: 300;
+  line-height: 24px;
+}
+
+.footer-section a {
+  color: #00d6b4;
+  align-self: end;
+  text-align: right;
+  text-decoration: none;
+}
+
+.footer-links {
+  text-align: right;
+  align-self: end;
 }
 
 .footer-section a:hover {
@@ -582,8 +616,7 @@ a[href*="instagram.com/jwauw"]:hover,
 
 .footer-bottom {
   text-align: center;
-  padding-top: 40px;
-  border-top: 1px solid #eee;
+  padding-top: 20px;
   color: #999;
   font-size: 12px;
 }
