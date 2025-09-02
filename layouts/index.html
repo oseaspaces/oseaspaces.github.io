@@ -61,7 +61,6 @@
 <!-- Projects Gallery Section -->
 <section id="projects" class="container grid">
   {{ range where .Site.RegularPages "Type" "projects" }}
-  <!-- <div class="project"> -->
   <div class="project-images">
     <div class="slider">
       {{ range .Params.images }}
@@ -74,6 +73,15 @@
       <button class="prev-btn">&lt;</button>
       <button class="next-btn">&gt;</button>
     </div>
+    <div class="slider-dots">
+      {{ range $index, $image := .Params.images }}
+      <button
+        class="slider-dot{{ if eq $index 0 }} active{{ end }}"
+        data-slide="{{ $index }}"
+        aria-label="Go to slide {{ add $index 1 }}"
+      ></button>
+      {{ end }}
+    </div>
   </div>
   <div class="project-description">
     <h2 class="project-title">{{ .Title }}</h2>
@@ -83,7 +91,6 @@
     </h3>
     <div class="project-content">{{ .Content }}</div>
   </div>
-  <!-- </div> -->
   {{ end }}
 </section>
 {{ end }}

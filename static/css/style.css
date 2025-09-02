@@ -238,6 +238,33 @@ body {
   pointer-events: none;
 }
 
+.slider-dots {
+  position: absolute;
+  bottom: 0.8em;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 0.3em;
+  pointer-events: auto;
+}
+
+.slider-dot {
+  width: 1em;
+  height: 1em;
+  background: #fff6;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.slider-dot.active {
+  background: white;
+}
+
+.slider-dot:hover {
+  background: rgba(255, 255, 255, 0.8);
+}
+
 .prev-btn,
 .next-btn {
   background: none;

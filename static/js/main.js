@@ -10,6 +10,7 @@ function initializeSliders() {
     const slides = slider.querySelectorAll(".slide");
     const prevBtn = slider.parentElement.querySelector(".prev-btn");
     const nextBtn = slider.parentElement.querySelector(".next-btn");
+    const dots = slider.parentElement.querySelectorAll(".slider-dot");
 
     if (slides.length === 0) return;
 
@@ -19,8 +20,16 @@ function initializeSliders() {
     slides[0].classList.add("active");
 
     function showSlide(index) {
+      // Remove active class from all slides and dots
       slides.forEach((slide) => slide.classList.remove("active"));
+      dots.forEach((dot) => dot.classList.remove("active"));
+
+      // Add active class to current slide and dot
       slides[index].classList.add("active");
+      if (dots[index]) {
+        dots[index].classList.add("active");
+      }
+
       currentSlide = index;
     }
 
@@ -34,9 +43,16 @@ function initializeSliders() {
       showSlide(prev);
     }
 
-    // Add event listeners
+    // Add event listeners for arrow buttons
     if (nextBtn) nextBtn.addEventListener("click", nextSlide);
     if (prevBtn) prevBtn.addEventListener("click", prevSlide);
+
+    // Add event listeners for dots
+    dots.forEach((dot, index) => {
+      dot.addEventListener("click", () => {
+        showSlide(index);
+      });
+    });
 
     // Auto-advance slides (optional)
     // setInterval(nextSlide, 5000);
