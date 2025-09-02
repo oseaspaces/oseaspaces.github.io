@@ -65,11 +65,12 @@ body {
 
 .nav-menu {
   display: flex;
-  gap: 30px;
+  margin-top: 20px;
 }
 
 .nav-link {
   color: white;
+  margin-left: 20px;
   text-decoration: none;
   font-weight: normal;
   font-size: 18px;
@@ -642,11 +643,6 @@ a[href*="instagram.com/jwauw"]:hover,
     flex-direction: column;
     height: auto;
     padding: 20px;
-  }
-
-  .nav-menu {
-    margin-top: 20px;
-    gap: 20px;
   }
 
   .hero {
