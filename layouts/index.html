@@ -60,31 +60,31 @@
 
 <!-- Projects Gallery Section -->
 <section id="projects" class="projects-section">
-  <div class="container">
+  <div class="container grid">
     {{ range where .Site.RegularPages "Type" "projects" }}
-    <div class="project">
-      <div class="project-images">
-        <div class="slider">
-          {{ range .Params.images }}
-          <div class="slide">
-            <img src="{{ . }}" alt="Project Image" class="project-img" />
-          </div>
-          {{ end }}
+    <!-- <div class="project"> -->
+    <div class="project-images">
+      <div class="slider">
+        {{ range .Params.images }}
+        <div class="slide">
+          <img src="{{ . }}" alt="Project Image" class="project-img" />
         </div>
-        <div class="slider-nav">
-          <button class="prev-btn">&lt;</button>
-          <button class="next-btn">&gt;</button>
-        </div>
+        {{ end }}
       </div>
-      <div class="project-description">
-        <h2 class="project-title">{{ .Title }}</h2>
-        <h3 class="project-meta">
-          {{ .Params.location }}, {{ .Params.year }} |
-          <strong><em>{{ .Params.service }}</em></strong>
-        </h3>
-        <div class="project-content">{{ .Content }}</div>
+      <div class="slider-nav">
+        <button class="prev-btn">&lt;</button>
+        <button class="next-btn">&gt;</button>
       </div>
     </div>
+    <div class="project-description">
+      <h2 class="project-title">{{ .Title }}</h2>
+      <h3 class="project-meta">
+        {{ .Params.location }}, {{ .Params.year }} |
+        <strong><em>{{ .Params.service }}</em></strong>
+      </h3>
+      <div class="project-content">{{ .Content }}</div>
+    </div>
+    <!-- </div> -->
     {{ end }}
   </div>
 </section>
