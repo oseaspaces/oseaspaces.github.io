@@ -22,24 +22,31 @@
 <section class="company-info">
     <div class="container">
         <div class="info-grid">
-            <div class="info-logo">
-                <img src="/images/orange-shape.png" alt="Osea Shape" class="orange-shape">
+            <div class="info-left">
+                <div class="info-left-grid">
+                    <div class="info-logo">
+                        <img src="/images/orange-shape.png" alt="Osea Shape" class="orange-shape">
+                    </div>
+                    <div class="info-text">
+                        <p class="company-description">
+                            <strong>{{ .Site.Params.description }}</strong>
+                        </p>
+                    </div>
+                    <div class="info-contact">
+                        <p class="contact-info">
+                            Amsterdam:<br>
+                            {{ .Site.Params.contact.amsterdam_address | markdownify }}<br>
+                            {{ .Site.Params.contact.amsterdam_phone }}<br><br>
+                            
+                            Marseille:<br>
+                            {{ .Site.Params.contact.marseille_address | markdownify }}<br>
+                            {{ .Site.Params.contact.marseille_phone }}
+                        </p>
+                    </div>
+                </div>
             </div>
-            <div class="info-text">
-                <p class="company-description">
-                    <strong>{{ .Site.Params.description }}</strong>
-                </p>
-            </div>
-            <div class="info-contact">
-                <p class="contact-info">
-                    Amsterdam:<br>
-                    {{ .Site.Params.contact.amsterdam_address | markdownify }}<br>
-                    {{ .Site.Params.contact.amsterdam_phone }}<br><br>
-                    
-                    Marseille:<br>
-                    {{ .Site.Params.contact.marseille_address | markdownify }}<br>
-                    {{ .Site.Params.contact.marseille_phone }}
-                </p>
+            <div class="info-right">
+                <!-- Additional content can go here if needed -->
             </div>
         </div>
     </div>
@@ -64,7 +71,7 @@
                 </div>
             </div>
             <div class="project-description">
-                <h1 class="project-title">{{ .Title }}</h1>
+                <h2 class="project-title">{{ .Title }}</h2>
                 <h3 class="project-meta">{{ .Params.location }}, {{ .Params.year }} | <strong><em>{{ .Params.service }}</em></strong></h3>
                 <div class="project-content">
                     {{ .Content }}
