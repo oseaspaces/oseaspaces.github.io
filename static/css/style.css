@@ -411,6 +411,28 @@ body {
 
 /* Contact Page Styles */
 .contact-info-section {
+  color: #000;
+  text-align: left;
+  margin-bottom: 0;
+  margin-left: 0;
+  margin-right: auto;
+  padding-left: 0;
+  padding-right: 0;
+  font-family: Arbutusslab, Times New Roman, sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  /* text-decoration: none; */
+  display: block;
+  letter-spacing: 0.5px;
+}
+
+.contact-info-section p {
+  margin-bottom: 1em;
+}
+
+/* .contact-info-section {
   margin-bottom: 60px;
 }
 
@@ -425,7 +447,7 @@ body {
   font-size: 18px;
   color: #666;
   margin-bottom: 40px;
-}
+} */
 
 .contact-details {
   display: grid;
@@ -692,11 +714,6 @@ a[href*="instagram.com/jwauw"]:hover,
 
   .project-description {
     padding: 40px 20px;
-  }
-
-  .about-content,
-  .contact-content {
-    padding: 40px 20px 80px 20px;
   }
 
   .footer-grid {
