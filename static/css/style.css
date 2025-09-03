@@ -77,12 +77,12 @@ body {
 }
 
 .nav-link:hover {
-  color: #ff4917;
+  color: #d02d17;
 }
 
 .nav-link.current {
   font-weight: bold;
-  color: #ff4917;
+  color: #d02d17;
 }
 
 .hero-image {
@@ -361,7 +361,6 @@ body {
 .about-content,
 .contact-content {
   padding: 60px 40px;
-  max-width: 1400px;
   margin: 0 auto;
 }
 
@@ -496,7 +495,7 @@ body {
 /* Jamie van Haastere hyperlinks */
 a[href*="instagram.com/jwauw"],
 .jamie-link {
-  color: #ff4917;
+  color: #d02d17;
   text-decoration: none;
 }
 
@@ -603,7 +602,6 @@ a[href*="instagram.com/jwauw"]:hover,
   grid-template-columns: 1fr 1fr;
   gap: 60px;
   margin-bottom: 40px;
-  max-width: 1400px;
   margin: 0 auto;
 }
 
@@ -676,7 +674,7 @@ a[href*="instagram.com/jwauw"]:hover,
   cursor: pointer;
   z-index: 1001;
   position: relative;
-  background: #ff4917;
+  background: #d02d17;
 }
 
 .nav-toggle-bar {
@@ -808,11 +806,11 @@ html {
   }
 
   .nav-link:hover {
-    color: #ff4917;
+    color: #d02d17;
   }
 
   .nav-link.current {
-    color: #ff4917;
+    color: #d02d17;
   }
 
   .nav-link:last-child {
