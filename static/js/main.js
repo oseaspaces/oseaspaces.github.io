@@ -1,6 +1,7 @@
-// Initialize sliders when DOM is loaded
+// Initialize sliders and navigation when DOM is loaded
 document.addEventListener("DOMContentLoaded", function () {
   initializeSliders();
+  initializeMobileNav();
 });
 
 function initializeSliders() {
@@ -53,9 +54,46 @@ function initializeSliders() {
         showSlide(index);
       });
     });
+  });
+}
 
-    // Auto-advance slides (optional)
-    // setInterval(nextSlide, 5000);
+// Mobile Navigation - Dropdown Style
+function initializeMobileNav() {
+  const navToggle = document.querySelector(".nav-toggle");
+  const navMenu = document.querySelector(".nav-menu");
+  const navLinks = document.querySelectorAll(".nav-link");
+
+  if (!navToggle || !navMenu) return;
+
+  // Toggle dropdown menu
+  navToggle.addEventListener("click", function (e) {
+    e.stopPropagation();
+    navToggle.classList.toggle("active");
+    navMenu.classList.toggle("active");
+  });
+
+  // Close menu when clicking nav links
+  navLinks.forEach((link) => {
+    link.addEventListener("click", function () {
+      navToggle.classList.remove("active");
+      navMenu.classList.remove("active");
+    });
+  });
+
+  // Close menu when clicking outside
+  document.addEventListener("click", function (e) {
+    if (!navToggle.contains(e.target) && !navMenu.contains(e.target)) {
+      navToggle.classList.remove("active");
+      navMenu.classList.remove("active");
+    }
+  });
+
+  // Close menu on escape key
+  document.addEventListener("keydown", function (e) {
+    if (e.key === "Escape" && navMenu.classList.contains("active")) {
+      navToggle.classList.remove("active");
+      navMenu.classList.remove("active");
+    }
   });
 }
 
