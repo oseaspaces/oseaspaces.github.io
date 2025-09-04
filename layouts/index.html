@@ -98,4 +98,21 @@
   </div>
   {{ end }}
 </section>
+<script>
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add("in-view");
+        }
+      });
+    },
+    { threshold: 0.1 }
+  );
+
+  document.addEventListener("DOMContentLoaded", () => {
+    const infoGrid = document.querySelector(".info-grid");
+    if (infoGrid) observer.observe(infoGrid);
+  });
+</script>
 {{ end }}

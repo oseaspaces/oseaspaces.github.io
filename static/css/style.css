@@ -131,11 +131,16 @@ body {
   gap: 40px;
   align-items: start;
   opacity: 0;
-  animation: fadeInUp 1s ease forwards;
-  animation-delay: 0.5s;
   max-width: 1400px;
   margin-top: 40px;
   margin-bottom: 40px;
+  transform: translateX(-100px);
+  transition: opacity 1s ease, transform 1s ease;
+}
+
+.info-grid.in-view {
+  opacity: 1;
+  transform: translateX(0);
 }
 
 .grid-5 {
@@ -1158,5 +1163,22 @@ html {
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@keyframes triggerInfoGrid {
+  to {
+    /* This keyframe doesn't change anything, but triggers the animation */
+  }
+}
+
+@keyframes slideInFromLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
   }
 }
