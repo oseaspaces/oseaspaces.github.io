@@ -181,6 +181,7 @@ body {
 
 .company-description {
   font-size: 16px;
+  font-weight: bold;
   line-height: 20px;
   color: #ff4917;
   letter-spacing: 0.5px;
@@ -445,7 +446,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 32px;
-  /* text-decoration: none; */
+  text-decoration: none;
   display: block;
   letter-spacing: 0.5px;
 }
@@ -743,7 +744,7 @@ html {
   }
 
   .company-info {
-    padding: 20px 40px;
+    padding: 20px 55px;
   }
 
   .about-content,
@@ -865,10 +866,6 @@ html {
   }
 
   /* Company Info */
-  .company-info {
-    padding: 30px 20px;
-  }
-
   .info-grid {
     grid-template-columns: 1fr;
     gap: 30px;
@@ -877,16 +874,18 @@ html {
   }
 
   .grid-5 {
-    grid-template-columns: 1fr;
+    /* grid-template-columns: 1fr; */
     grid-template-rows: auto auto auto;
     gap: 20px;
     text-align: center;
+    grid-template-columns: 1fr;
+    max-width: 480px;
   }
 
   .orange-shape {
-    width: 150px;
-    height: 135px;
     margin: 0 auto;
+    width: 100%;
+    height: 100%;
   }
 
   .info-text {
@@ -896,13 +895,12 @@ html {
 
   .company-description {
     font-size: 16px;
-    line-height: 22px;
     text-align: left;
   }
 
   .contact-info {
-    font-size: 14px;
-    line-height: 18px;
+    font-size: 16px;
+    line-height: 20px;
     text-align: left;
   }
 
@@ -1054,11 +1052,6 @@ html {
 
   .company-info {
     padding: 20px 15px;
-  }
-
-  .orange-shape {
-    width: 120px;
-    height: 108px;
   }
 
   .info-text,
