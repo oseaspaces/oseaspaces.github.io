@@ -14,10 +14,7 @@ To add a new project to the gallery:
 
 1. Create a new `.md` file in [`content/projects/[project-name.md]`](https://github.com/oseaspaces/oseaspaces.github.io/new/main/content/projects).
    - Notice hyphen for project name: -.
-2. Create a folder for project images in [`static/images/projects/[project_name]/`](https://github.com/oseaspaces/oseaspaces.github.io/new/main/static/images/projects).
-   - Notice underscore for image folder: \_.
-   - Notice at the top it says "Name your file..."", type your new project_name with a / at the end, this will create a new folder.
-3. Use this template for the markdown file:
+2. Use this template for the markdown file:
 
 ```markdown
 ---
@@ -39,6 +36,10 @@ You can add multiple paragraphs for comprehensive project descriptions.
 
 Add links like: In collaboration with: [Partner Name](https://instagram.com/handle)
 ```
+
+3. Create a folder for project images in [`static/images/projects/[project_name]/`](https://github.com/oseaspaces/oseaspaces.github.io/new/main/static/images/projects).
+   - Notice underscore for image folder: \_.
+   - Notice at the top it says "Name your file..."", type your new project_name with a / at the end, this will create a new folder.
 
 ## Building locally
 
