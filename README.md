@@ -39,7 +39,7 @@ Add links like: In collaboration with: [Partner Name](https://instagram.com/hand
 
 3. Create a folder for project images in [`static/images/projects/[project_name]/`](https://github.com/oseaspaces/oseaspaces.github.io/new/main/static/images/projects).
    - Notice underscore for image folder: \_.
-   - Notice at the top it says "Name your file..."", type your new project_name with a / at the end, this will create a new folder.
+   - Notice at the top it says "Name your file...", type your new project_name with a / at the end, this will create a new folder.
 
 ## Building locally
 
