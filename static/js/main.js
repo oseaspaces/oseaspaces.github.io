@@ -16,6 +16,7 @@ function initializeSliders() {
     if (slides.length === 0) return;
 
     let currentSlide = 0;
+    let startX = 0;
 
     // Show first slide
     slides[0].classList.add("active");
@@ -44,6 +45,25 @@ function initializeSliders() {
       showSlide(prev);
     }
 
+    // Simple touch support
+    slider.addEventListener("touchstart", (e) => {
+      startX = e.touches[0].clientX;
+    });
+
+    slider.addEventListener("touchend", (e) => {
+      const endX = e.changedTouches[0].clientX;
+      const diff = startX - endX;
+
+      // If swipe is more than 50px, change slide
+      if (Math.abs(diff) > 50) {
+        if (diff > 0) {
+          nextSlide(); // Swiped left
+        } else {
+          prevSlide(); // Swiped right
+        }
+      }
+    });
+
     // Add event listeners for arrow buttons
     if (nextBtn) nextBtn.addEventListener("click", nextSlide);
     if (prevBtn) prevBtn.addEventListener("click", prevSlide);
@@ -56,6 +76,8 @@ function initializeSliders() {
     });
   });
 }
+
+// ... rest of the code stays the same ...
 
 // Mobile Navigation - Dropdown Style
 function initializeMobileNav() {
