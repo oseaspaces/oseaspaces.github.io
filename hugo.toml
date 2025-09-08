@@ -1,7 +1,7 @@
 baseURL = "https://oseaspaces.com"
 languageCode = "en-us"
 title = "Osea Spaces"
-theme = ""
+# theme = ""
 
 [params]
   description = "OSEA is a spatial design studio based in Amsterdam and Marseille. We specialize in interior architecture, custom furniture fabrication, set design and creative direction for private residences, retail spaces and showrooms."
