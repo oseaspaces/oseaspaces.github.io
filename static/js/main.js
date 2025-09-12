@@ -136,7 +136,69 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
 
 // Language Switcher Functionality
 function initializeLanguageSwitcher() {
-  // Simple dropdown toggle for Hugo multilingual
+  // Check for stored language preference and redirect if necessary
+  const storedLang = localStorage.getItem('preferredLanguage');
+  const currentLang = getCurrentLanguage();
+  
+  if (storedLang && storedLang !== currentLang) {
+    // Redirect to the stored language version of current page
+    const currentPath = window.location.pathname;
+    const newUrl = buildLanguageUrl(storedLang, currentPath);
+    window.location.href = newUrl;
+    return;
+  }
+  
+  // Store current language if not stored yet
+  if (!storedLang) {
+    localStorage.setItem('preferredLanguage', currentLang);
+  }
+}
+
+function getCurrentLanguage() {
+  const path = window.location.pathname;
+  if (path.startsWith('/fr/')) return 'fr';
+  if (path.startsWith('/nl/')) return 'nl';
+  return 'en';
+}
+
+function buildLanguageUrl(targetLang, currentPath) {
+  // Remove current language prefix from path
+  let cleanPath = currentPath;
+  if (cleanPath.startsWith('/fr/')) {
+    cleanPath = cleanPath.substring(3);
+  } else if (cleanPath.startsWith('/nl/')) {
+    cleanPath = cleanPath.substring(3);
+  }
+  
+  // Ensure path starts with /
+  if (!cleanPath.startsWith('/')) {
+    cleanPath = '/' + cleanPath;
+  }
+  
+  // Build new URL with target language
+  if (targetLang === 'en') {
+    return cleanPath;
+  } else {
+    return `/${targetLang}${cleanPath}`;
+  }
+}
+
+function switchLanguage(targetLang) {
+  // Store language preference
+  localStorage.setItem('preferredLanguage', targetLang);
+  
+  // Build URL for current page in target language
+  const currentPath = window.location.pathname;
+  const newUrl = buildLanguageUrl(targetLang, currentPath);
+  
+  // Close dropdown
+  const dropdown = document.getElementById('language-dropdown');
+  if (dropdown) {
+    dropdown.classList.remove('show');
+  }
+  
+  // Navigate to new URL
+  window.location.href = newUrl;
 }
 
 function toggleLanguageDropdown() {
