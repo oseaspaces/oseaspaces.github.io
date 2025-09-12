@@ -1,5 +1,8 @@
 <div class="language-switcher nav-link">
-  <div class="language-current" onclick="toggleLanguageDropdown()">
+  <div
+    class="language-current"
+    onclick="toggleLanguageDropdown(); event.stopPropagation();"
+  >
     <span class="flag" id="current-flag">
       {{ if eq .Site.Language.Lang "fr" }}🇫🇷{{ else if eq .Site.Language.Lang
       "nl" }}🇳🇱{{ else }}🇬🇧{{ end }}
@@ -11,7 +14,7 @@
       href="#"
       class="language-option"
       data-lang="{{ .Lang }}"
-      onclick="switchLanguage('{{ .Lang }}'); return false;"
+      onclick="switchLanguage('{{ .Lang }}'); event.stopPropagation(); return false;"
     >
       <span class="flag">
         {{ if eq .Lang "fr" }}🇫🇷{{ else if eq .Lang "nl" }}🇳🇱{{ else }}🇬🇧{{ end

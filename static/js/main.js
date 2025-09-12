@@ -78,13 +78,13 @@ function initializeSliders() {
   });
 }
 
-// ... rest of the code stays the same ...
-
 // Mobile Navigation - Dropdown Style
 function initializeMobileNav() {
   const navToggle = document.querySelector(".nav-toggle");
   const navMenu = document.querySelector(".nav-menu");
-  const navLinks = document.querySelectorAll(".nav-link");
+  const navLinks = document.querySelectorAll(
+    ".nav-link:not(.language-switcher)"
+  ); // Exclude language switcher
 
   if (!navToggle || !navMenu) return;
 
@@ -95,7 +95,7 @@ function initializeMobileNav() {
     navMenu.classList.toggle("active");
   });
 
-  // Close menu when clicking nav links
+  // Close menu when clicking nav links (but NOT the language switcher)
   navLinks.forEach((link) => {
     link.addEventListener("click", function () {
       navToggle.classList.remove("active");
@@ -137,9 +137,9 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
 // Language Switcher Functionality
 function initializeLanguageSwitcher() {
   // Check for stored language preference and redirect if necessary
-  const storedLang = localStorage.getItem('preferredLanguage');
+  const storedLang = localStorage.getItem("preferredLanguage");
   const currentLang = getCurrentLanguage();
-  
+
   if (storedLang && storedLang !== currentLang) {
     // Redirect to the stored language version of current page
     const currentPath = window.location.pathname;
@@ -147,36 +147,36 @@ function initializeLanguageSwitcher() {
     window.location.href = newUrl;
     return;
   }
-  
+
   // Store current language if not stored yet
   if (!storedLang) {
-    localStorage.setItem('preferredLanguage', currentLang);
+    localStorage.setItem("preferredLanguage", currentLang);
   }
 }
 
 function getCurrentLanguage() {
   const path = window.location.pathname;
-  if (path.startsWith('/fr/')) return 'fr';
-  if (path.startsWith('/nl/')) return 'nl';
-  return 'en';
+  if (path.startsWith("/fr/")) return "fr";
+  if (path.startsWith("/nl/")) return "nl";
+  return "en";
 }
 
 function buildLanguageUrl(targetLang, currentPath) {
   // Remove current language prefix from path
   let cleanPath = currentPath;
-  if (cleanPath.startsWith('/fr/')) {
+  if (cleanPath.startsWith("/fr/")) {
     cleanPath = cleanPath.substring(3);
-  } else if (cleanPath.startsWith('/nl/')) {
+  } else if (cleanPath.startsWith("/nl/")) {
     cleanPath = cleanPath.substring(3);
   }
-  
+
   // Ensure path starts with /
-  if (!cleanPath.startsWith('/')) {
-    cleanPath = '/' + cleanPath;
+  if (!cleanPath.startsWith("/")) {
+    cleanPath = "/" + cleanPath;
   }
-  
+
   // Build new URL with target language
-  if (targetLang === 'en') {
+  if (targetLang === "en") {
     return cleanPath;
   } else {
     return `/${targetLang}${cleanPath}`;
@@ -185,32 +185,62 @@ function buildLanguageUrl(targetLang, currentPath) {
 
 function switchLanguage(targetLang) {
   // Store language preference
-  localStorage.setItem('preferredLanguage', targetLang);
-  
+  localStorage.setItem("preferredLanguage", targetLang);
+
   // Build URL for current page in target language
   const currentPath = window.location.pathname;
   const newUrl = buildLanguageUrl(targetLang, currentPath);
-  
+
   // Close dropdown
-  const dropdown = document.getElementById('language-dropdown');
+  const dropdown = document.getElementById("language-dropdown");
   if (dropdown) {
-    dropdown.classList.remove('show');
+    dropdown.classList.remove("show");
   }
-  
+
   // Navigate to new URL
   window.location.href = newUrl;
 }
 
 function toggleLanguageDropdown() {
-  const dropdown = document.getElementById('language-dropdown');
+  const dropdown = document.getElementById("language-dropdown");
   if (dropdown) {
-    dropdown.classList.toggle('show');
-    
-    // Close dropdown when clicking outside
-    document.addEventListener('click', function(e) {
-      if (!e.target.closest('.language-switcher')) {
-        dropdown.classList.remove('show');
-      }
-    }, { once: true });
+    dropdown.classList.toggle("show");
+
+    // Close dropdown when clicking outside (but not when clicking the mobile menu)
+    document.addEventListener(
+      "click",
+      function (e) {
+        if (!e.target.closest(".language-switcher")) {
+          dropdown.classList.remove("show");
+        }
+      },
+      { once: true }
+    );
   }
+}
+
+function switchLanguage(targetLang) {
+  // Store language preference
+  localStorage.setItem("preferredLanguage", targetLang);
+
+  // Build URL for current page in target language
+  const currentPath = window.location.pathname;
+  const newUrl = buildLanguageUrl(targetLang, currentPath);
+
+  // Close dropdown
+  const dropdown = document.getElementById("language-dropdown");
+  if (dropdown) {
+    dropdown.classList.remove("show");
+  }
+
+  // Close mobile menu if open
+  const navToggle = document.querySelector(".nav-toggle");
+  const navMenu = document.querySelector(".nav-menu");
+  if (navToggle && navMenu) {
+    navToggle.classList.remove("active");
+    navMenu.classList.remove("active");
+  }
+
+  // Navigate to new URL
+  window.location.href = newUrl;
 }
