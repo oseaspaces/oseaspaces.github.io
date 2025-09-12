@@ -2,6 +2,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   initializeSliders();
   initializeMobileNav();
+  initializeLanguageSwitcher();
 });
 
 function initializeSliders() {
@@ -132,3 +133,22 @@ document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
     }
   });
 });
+
+// Language Switcher Functionality
+function initializeLanguageSwitcher() {
+  // Simple dropdown toggle for Hugo multilingual
+}
+
+function toggleLanguageDropdown() {
+  const dropdown = document.getElementById('language-dropdown');
+  if (dropdown) {
+    dropdown.classList.toggle('show');
+    
+    // Close dropdown when clicking outside
+    document.addEventListener('click', function(e) {
+      if (!e.target.closest('.language-switcher')) {
+        dropdown.classList.remove('show');
+      }
+    }, { once: true });
+  }
+}

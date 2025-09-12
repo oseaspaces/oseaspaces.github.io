@@ -1,6 +1,31 @@
 baseURL = "https://oseaspaces.github.io"
-languageCode = "en-us"
+defaultContentLanguage = "en"
 title = "Osea Spaces"
+
+[languages]
+  [languages.en]
+    languageCode = "en-us"
+    languageName = "English"
+    title = "Osea Spaces"
+    weight = 1
+    [languages.en.params]
+      description = "OSEA is a spatial design studio based in Amsterdam and Marseille. We specialize in interior architecture, custom furniture fabrication, set design and creative direction for private residences, retail spaces and showrooms."
+
+  [languages.fr]
+    languageCode = "fr-fr"
+    languageName = "Français"
+    title = "Osea Spaces"
+    weight = 2
+    [languages.fr.params]
+      description = "OSEA est un studio de design spatial basé à Amsterdam et Marseille. Nous nous spécialisons dans l'architecture intérieure, la fabrication de meubles sur mesure, la scénographie et la direction créative pour les résidences privées, les espaces de vente au détail et les showrooms."
+
+  [languages.nl]
+    languageCode = "nl-nl"
+    languageName = "Nederlands"
+    title = "Osea Spaces"
+    weight = 3
+    [languages.nl.params]
+      description = "OSEA is een ruimtelijk ontwerpstudio gevestigd in Amsterdam en Marseille. Wij zijn gespecialiseerd in interieurarchitectuur, maatwerk meubelproductie, setdesign en creatieve richting voor privéwoningen, retailruimtes en showrooms."
 
 [params]
   description = "OSEA is a spatial design studio based in Amsterdam and Marseille. We specialize in interior architecture, custom furniture fabrication, set design and creative direction for private residences, retail spaces and showrooms."
@@ -13,16 +38,44 @@ title = "Osea Spaces"
     marseille_postcode = "13012, Marseille"  
     marseille_phone = "+33 7 59582479"
 
-[menu]
-  [[menu.main]]
+[languages.en.menu]
+  [[languages.en.menu.main]]
     name = "Spaces"
     url = "/"
     weight = 10
-  [[menu.main]]
+  [[languages.en.menu.main]]
     name = "About"  
     url = "/about/"
     weight = 20
-  [[menu.main]]
+  [[languages.en.menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 30
+
+[languages.fr.menu]
+  [[languages.fr.menu.main]]
+    name = "Espaces"
+    url = "/"
+    weight = 10
+  [[languages.fr.menu.main]]
+    name = "À propos"
+    url = "/about/"
+    weight = 20
+  [[languages.fr.menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 30
+
+[languages.nl.menu]
+  [[languages.nl.menu.main]]
+    name = "Ruimtes"
+    url = "/"
+    weight = 10
+  [[languages.nl.menu.main]]
+    name = "Over ons"
+    url = "/about/"
+    weight = 20
+  [[languages.nl.menu.main]]
     name = "Contact"
     url = "/contact/"
     weight = 30
