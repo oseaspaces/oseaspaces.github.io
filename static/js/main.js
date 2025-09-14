@@ -2,7 +2,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   initializeSliders();
   initializeMobileNav();
-  initializeLanguageSwitcher();
+  initializeLanguageDetection();
 });
 
 function initializeSliders() {
@@ -222,6 +222,101 @@ function toggleLanguageDropdown() {
 function switchLanguage(targetLang) {
   // Store language preference
   localStorage.setItem("preferredLanguage", targetLang);
+
+  // Build URL for current page in target language
+  const currentPath = window.location.pathname;
+  const newUrl = buildLanguageUrl(targetLang, currentPath);
+
+  // Close dropdown
+  const dropdown = document.getElementById("language-dropdown");
+  if (dropdown) {
+    dropdown.classList.remove("show");
+  }
+
+  // Close mobile menu if open
+  const navToggle = document.querySelector(".nav-toggle");
+  const navMenu = document.querySelector(".nav-menu");
+  if (navToggle && navMenu) {
+    navToggle.classList.remove("active");
+    navMenu.classList.remove("active");
+  }
+
+  // Navigate to new URL
+  window.location.href = newUrl;
+}
+
+// Language Detection and Cookie Management
+function getLanguageCookie() {
+  const cookies = document.cookie.split(";");
+  for (let cookie of cookies) {
+    const [name, value] = cookie.trim().split("=");
+    if (name === "lang") {
+      return value;
+    }
+  }
+  return null;
+}
+
+function setLanguageCookie(lang) {
+  // Set cookie for 1 year
+  const expires = new Date();
+  expires.setFullYear(expires.getFullYear() + 1);
+  document.cookie = `lang=${lang}; expires=${expires.toUTCString()}; path=/; SameSite=Lax`;
+}
+
+function detectLanguageFromAcceptHeader() {
+  // Get browser's preferred languages
+  const browserLanguages = navigator.languages || [navigator.language];
+  const supportedLanguages = ["en", "fr", "nl"];
+
+  for (let browserLang of browserLanguages) {
+    // Extract 2-letter language code
+    const langCode = browserLang.split("-")[0].toLowerCase();
+    if (supportedLanguages.includes(langCode)) {
+      return langCode;
+    }
+  }
+
+  // Default to English if no match
+  return "en";
+}
+
+function getCurrentLanguage() {
+  const path = window.location.pathname;
+  if (path.startsWith("/fr/")) return "fr";
+  if (path.startsWith("/nl/")) return "nl";
+  return "en";
+}
+
+function initializeLanguageDetection() {
+  const currentLang = getCurrentLanguage();
+  let targetLang = currentLang;
+
+  // 1. Check for existing language cookie
+  const cookieLang = getLanguageCookie();
+
+  if (cookieLang) {
+    // Use cookie language if it exists
+    targetLang = cookieLang;
+  } else {
+    // 2. No cookie: detect from Accept-Language header
+    const detectedLang = detectLanguageFromAcceptHeader();
+    targetLang = detectedLang;
+
+    // Don't set cookie here - only set when manually changed
+  }
+
+  // Redirect if target language differs from current
+  if (targetLang !== currentLang) {
+    const currentPath = window.location.pathname;
+    const newUrl = buildLanguageUrl(targetLang, currentPath);
+    window.location.href = newUrl;
+  }
+}
+
+function switchLanguage(targetLang) {
+  // Set cookie ONLY when language is manually changed
+  setLanguageCookie(targetLang);
 
   // Build URL for current page in target language
   const currentPath = window.location.pathname;
