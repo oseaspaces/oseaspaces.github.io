@@ -5,10 +5,9 @@ year: "2022"
 service: "Design d'intérieur"
 weight: 3
 images:
-  - "/images/projects/dynamic_room/1.jpg"
-  - "/images/projects/dynamic_room/2.png"
-  - "/images/projects/dynamic_room/3.png"
-  - "/images/projects/dynamic_room/4.png"
+  - "/images/projects/dynamic_room/OSEA_Project_HuisTimoMiles_1.jpg"
+  - "/images/projects/dynamic_room/OSEA_Project_HuisTimoMiles_2.jpg"
+  - "/images/projects/dynamic_room/OSEA_Project_HuisTimoMiles_3.jpg"
 ---
 
 Dans cet appartement, plusieurs pièces devaient être reconfigurées pour maximiser l'espace. Pour créer des zones distinctes tout en maintenant le flux de lumière naturelle, nous avons installé des cloisons de chambre en acier subtiles avec de grandes portes coulissantes en verre cannelé.
