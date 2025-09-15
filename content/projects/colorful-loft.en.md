@@ -5,7 +5,7 @@ year: "2021"
 service: "Interior design / Interior decoration"
 weight: 1
 images:
-  - "/images/projects/colorful_loft/1.jpg"
+  - "/images/projects/colorful_loft/OSEA_Project_HuisJuul_1.jpg"
   - "/images/projects/colorful_loft/2.jpg"
   - "/images/projects/colorful_loft/3.png"
   - "/images/projects/colorful_loft/4.png"
