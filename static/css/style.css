@@ -98,12 +98,12 @@ body {
 }
 
 .nav-link:hover {
-  color: #EA3200;
+  color: #ea3200;
 }
 
 .nav-link.current {
   font-weight: bold;
-  color: #EA3200;
+  color: #ea3200;
 }
 
 .hero-image {
@@ -519,7 +519,7 @@ body {
 /* Jamie van Haastere hyperlinks */
 a[href*="instagram.com/jwauw"],
 .jamie-link {
-  color: #EA3200;
+  color: #ea3200;
   text-decoration: none;
 }
 
@@ -698,7 +698,7 @@ a[href*="instagram.com/jwauw"]:hover,
   cursor: pointer;
   z-index: 1001;
   position: relative;
-  background: #EA3200;
+  background: #ea3200;
 }
 
 .nav-toggle-bar {
@@ -830,11 +830,11 @@ html {
   }
 
   .nav-link:hover {
-    color: #EA3200;
+    color: #ea3200;
   }
 
   .nav-link.current {
-    color: #EA3200;
+    color: #ea3200;
   }
 
   .nav-link:last-child {
@@ -1173,6 +1173,16 @@ html {
   }
 }
 
+/* Add this to the existing .flag selector or modify it */
+.flag {
+  width: 25px;
+  height: auto;
+  margin-right: 8px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* Also update the language-switcher section with better sizing */
 .language-switcher {
   position: relative;
   display: inline-block;
@@ -1182,10 +1192,6 @@ html {
   cursor: pointer;
   border-radius: 4px;
   transition: background-color 0.2s;
-}
-
-.language-current:hover {
-  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .language-dropdown {
@@ -1218,11 +1224,6 @@ html {
 .language-option:hover {
   background-color: #f5f5f5;
   text-decoration: none;
-}
-
-.flag {
-  font-size: 1.2em;
-  margin-right: 8px;
 }
 
 .language-name {

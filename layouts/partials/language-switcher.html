@@ -3,10 +3,10 @@
     class="language-current"
     onclick="toggleLanguageDropdown(); event.stopPropagation();"
   >
-    <span class="flag" id="current-flag">
-      {{ if eq .Site.Language.Lang "fr" }}🇫🇷{{ else if eq .Site.Language.Lang
-      "nl" }}🇳🇱{{ else }}🇬🇧{{ end }}
-    </span>
+    <img class="flag" id="current-flag" src="{{ if eq .Site.Language.Lang "fr"
+    }}/images/fr.png{{ else if eq .Site.Language.Lang "nl" }}/images/nl.png{{
+    else }}/images/en.png{{ end }}" alt="{{ .Site.Language.LanguageName }}
+    flag">
   </div>
   <div class="language-dropdown" id="language-dropdown">
     {{ range .Site.Languages }} {{ if ne .Lang site.LanguageCode }}
@@ -16,10 +16,9 @@
       data-lang="{{ .Lang }}"
       onclick="switchLanguage('{{ .Lang }}'); event.stopPropagation(); return false;"
     >
-      <span class="flag">
-        {{ if eq .Lang "fr" }}🇫🇷{{ else if eq .Lang "nl" }}🇳🇱{{ else }}🇬🇧{{ end
-        }}
-      </span>
+      <img class="flag" src="{{ if eq .Lang "fr" }}/images/fr.png{{ else if eq
+      .Lang "nl" }}/images/nl.png{{ else }}/images/en.png{{ end }}" alt="{{
+      .LanguageName }} flag">
       <span class="language-name">{{ .LanguageName }}</span>
     </a>
     {{ end }} {{ end }}
