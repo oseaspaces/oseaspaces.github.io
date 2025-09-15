@@ -5,10 +5,9 @@ year: "2022"
 service: "Interieurontwerp"
 weight: 3
 images:
-  - "/images/projects/dynamic_room/1.jpg"
-  - "/images/projects/dynamic_room/2.png"
-  - "/images/projects/dynamic_room/3.png"
-  - "/images/projects/dynamic_room/4.png"
+  - "/images/projects/dynamic_room/OSEA_Project_HuisTimoMiles_1.jpg"
+  - "/images/projects/dynamic_room/OSEA_Project_HuisTimoMiles_2.jpg"
+  - "/images/projects/dynamic_room/OSEA_Project_HuisTimoMiles_3.jpg"
 ---
 
 In dit appartement moesten verschillende kamers worden herconfigureerd om de ruimte te maximaliseren. Om verschillende zones te creëren terwijl de stroom van natuurlijk licht behouden bleef, installeerden we subtiele stalen kamerscheidingen met grote schuifdeuren van geribbeld glas.
