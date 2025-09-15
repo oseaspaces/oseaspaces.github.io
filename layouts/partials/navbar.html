@@ -9,14 +9,21 @@
       <span class="nav-toggle-bar"></span>
     </button>
     <nav class="nav-menu">
-      {{ range .Site.Menus.main }}
-      <a
-        href="{{ .URL }}"
-        class="nav-link{{ if eq .URL $.RelPermalink }} current{{ end }}"
+      {{ range .Site.Menus.main }} {{ $menuURL := .URL }} {{ $currentURL :=
+      $.RelPermalink }} {{ $isActive := false }} {{ if eq $menuURL "/" }}
+      <!-- For home page, check if we're on the language root -->
+      {{ $langRoot := printf "/%s/" $.Site.Language.Lang }} {{ if eq
+      $.Site.Language.Lang "en" }} {{ $langRoot = "/" }} {{ end }} {{ if eq
+      $currentURL $langRoot }} {{ $isActive = true }} {{ end }} {{ else }}
+      <!-- For other pages, construct the full multilingual URL -->
+      {{ $fullURL := $menuURL }} {{ if ne $.Site.Language.Lang "en" }} {{
+      $fullURL = printf "/%s%s" $.Site.Language.Lang $menuURL }} {{ end }} {{ if
+      eq $currentURL $fullURL }} {{ $isActive = true }} {{ end }} {{ end }}
+
+      <a href="{{ .URL }}" class="nav-link{{ if $isActive }} current{{ end }}"
         >{{ .Name }}</a
       >
-      {{ end }}
-      {{ partial "language-switcher.html" . }}
+      {{ end }} {{ partial "language-switcher.html" . }}
     </nav>
   </div>
 </div>
