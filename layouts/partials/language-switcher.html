@@ -9,7 +9,7 @@
     flag">
   </div>
   <div class="language-dropdown" id="language-dropdown">
-    {{ range .Site.Languages }} {{ if ne .Lang site.LanguageCode }}
+    {{ range .Site.Languages }} {{ if ne .Lang $.Site.Language.Lang }}
     <a
       href="#"
       class="language-option"
