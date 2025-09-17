@@ -3,8 +3,9 @@ title: "À propos"
 layout: "about"
 ---
 
-**OSEA** est un studio de design spatial familial basé à Amsterdam et Marseille. Nous nous spécialisons dans l'architecture intérieure, la scénographie, la fabrication de meubles sur mesure et la direction créative pour les résidences privées, les espaces de vente au détail et les showrooms. En tant que famille, nous réunissons diverses expertises et expériences pour livrer des projets avec précision technique et signature personnelle.
+**OSEA** est un studio de design spatial familial basé à Amsterdam et Marseille. Nous sommes spécialisés dans l’architecture intérieure, la fabrication de mobilier sur mesure et la conception de décors pour résidences privées, espaces commerciaux et showrooms. En tant que famille, nous allions diverses expertises et parcours complémentaires pour mener à bien des projets avec précision technique et signature personnelle.
 
-Allard est un soudeur qualifié avec une vaste expérience dans la construction d'intérieurs et de meubles. Walt a une formation en ingénierie de design industriel et en dessin technique, et sait comment visualiser les idées depuis les croquis conceptuels jusqu'aux dessins techniques précis. Julia, qui travaille comme directrice artistique pour le cinéma et les publicités, apporte son expérience en scénographie conceptuelle et en décoration d'intérieur. Ensemble, nous gérons des projets de design spatial complets, depuis l'esquisse initiale jusqu'à la construction raffinée et la décoration.
+Allard est un soudeur avec une grande expérience en construction intérieure et fabrication sur mesure. Walt est formé en ingénierie de design industriel, et transforme les idées en plans techniques précis et modèles 3D. Julia travaille comme directrice artistique pour le cinéma et la publicité, apportant son savoir faire dans la conception de décors cinématographiques et l’aménagement.
 
-Contactez-nous pour demander un devis et/ou discuter d'un projet.
+Ensemble, nous accompagnons les projets intérieurs de la première esquisse à l’installation finale, créant des espaces lumineux, caractérisés et fonctionnels.
+N’hésitez pas à nous contacter pour discuter de votre projet ou demander un devis.

@@ -1,8 +1,8 @@
 ---
-title: "Zonnige orangerie in tuin, Normandië"
+title: "Zonnige oranjerie in tuin"
 location: "Normandië, Frankrijk"
 year: "2020"
-service: "Architectuur / interieurontwerp en decoratie"
+service: "Architectuur & inrichting"
 weight: 2
 images:
   - "/images/projects/sunny_orangery/1.jpeg"
@@ -12,8 +12,9 @@ images:
   - "/images/projects/sunny_orangery/6.png"
 ---
 
-Deze orangerie werd ontworpen en ingericht voor een landelijke familiehuis in Normandië. Om het mogelijk te maken om het hele jaar door van de tuin en het zonlicht te genieten, ontwierpen en bouwden we een orangerie die natuurlijk licht de ruimte laat binnenstromen, en die naadloos opgaat in de buitenomgeving.
+Deze oranjerie werd ontworpen en ingericht voor een landelijke gezinswoning in Normandië. Om het hele jaar door van de tuin en het zonlicht te kunnen genieten, ontwierpen en bouwden we een oranjerie waarin natuurlijk licht centraal staat.
 
-De orangerie heeft een modern slank stalen frame en een aanbouw glazen dak. De brede deuren, die naar buiten openen, bieden een open verbinding tussen het interieur en de tuin, wat natuurlijke ventilatie mogelijk maakt tijdens de zomermaanden.
+De constructie heeft een moderne slanke stalen structuur en een hellend dak. De brede openslaande deuren zorgen voor natuurlijke ventilatie tijdens de zomermaanden.
+De inrichting is geïnspireerd op vintage Franse charme en romantische cinema, met details die de kleuren van planten en bloemen uit de omgeving benadrukken.
 
-De decoratie is geïnspireerd door vintage Franse charme en romantische cinema, met details die de kleuren van omringende planten en bloemen benadrukken. Als brandpunt in de tuin is deze ruimte ideaal voor grote familediners of een rustige toevlucht om een boek te lezen, genietend van de groene omgeving.
+Als blikvanger in de tuin is deze ruimte ideaal voor gezellige familiediners of een rustige plek om een boek te lezen, omringd door het groen.

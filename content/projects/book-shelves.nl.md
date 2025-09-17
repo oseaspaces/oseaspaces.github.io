@@ -1,5 +1,5 @@
 ---
-title: "Boekenkasten in kantoorruimte"
+title: "Modulair wandrek in design studio"
 location: "Amsterdam"
 year: "2023"
 service: "Meubelproductie"
@@ -11,6 +11,7 @@ images:
   - "/images/projects/book_shelves/4.jpg"
 ---
 
-Dit modulaire kastensysteem is een samenwerking met onze vriend en interieurontwerper, Jamie van Haasteren. Wij hebben bijgedragen door de stalen componenten te vervaardigen. De slanke frames, afgewerkt met een blauwgrijze coating om te harmoniseren met de warme, natuurlijke uitstraling van de massief geolied eiken planken. Het resultaat is een elegant maar industrieel meubelstuk dat naadloos integreert in de kantoorruimte van Jop van Bennekom.
+Dit modulaire wandrek werd ontwikkeld in samenwerking met onze vriend en interieurontwerper Jamie van Haasteren, voor Studio Jop van Bennekom.
+Wij verzorgden het frame: lichtgrijze, minimalistische stalen onderdelen die de massief eikenhouten planken omlijsten. Het ontwerp benadrukt luchtigheid en lichtheid en sluit aan bij het industriële karakter van de ruimte.
 
 In samenwerking met: [Jamie van Haastere](https://instagram.com/jwauw)

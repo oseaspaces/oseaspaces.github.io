@@ -1,5 +1,5 @@
 ---
-title: "Étagères à livres dans un espace de bureau"
+title: "Étagères modulaires dans un studio de design"
 location: "Amsterdam"
 year: "2023"
 service: "Fabrication de meubles"
@@ -11,6 +11,6 @@ images:
   - "/images/projects/book_shelves/4.jpg"
 ---
 
-Ce système d'étagères modulaires est une collaboration avec notre ami et designer d'intérieur, Jamie van Haasteren. Nous avons contribué en fabriquant les composants en acier. Les cadres minces, finis avec un revêtement bleu-gris pour s'harmoniser avec l'apparence chaleureuse et naturelle des étagères en chêne massif huilé. Le résultat est un meuble élégant mais industriel qui s'intègre parfaitement dans l'espace de bureau de Jop van Bennekom.
+Ce système d’étagères modulaires a été développé en collaboration avec notre ami et designer d’intérieur Jamie van Haasteren pour Studio Jop van Bennekom. Nous avons fourni la structure acier : éléments minimalistes gris clair qui encadrent des étagères en chêne massif. Le design insiste sur la légèreté et la clarté, tout en complétant le caractère industriel de l’espace de travail
 
 En collaboration avec : [Jamie van Haastere](https://instagram.com/jwauw)

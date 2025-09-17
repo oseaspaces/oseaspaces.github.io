@@ -1,5 +1,5 @@
 ---
-title: "Cloison colorée de loft dans un appartement d'Amsterdam"
+title: "Cloison colorée et lumineuse dans Appartement"
 location: "Amsterdam"
 year: "2021"
 service: "Design d'intérieur / Décoration intérieure"
@@ -16,6 +16,6 @@ images:
   - "/images/projects/colorful_loft/OSEA_Project_HuisJuul_9.jpg"
 ---
 
-Dans cet appartement de style loft, le salon et la chambre étaient initialement séparés par un mur solide. Pour créer une plus grande sensation d'espace et apporter plus de lumière naturelle dans la chambre, nous avons introduit une cloison en verre et métal avec un coin courbé et des portes minces qui s'ouvrent du sol au plafond. Le design s'inspire des façades de cafés parisiens, avec des cadres métalliques fins et de grands panneaux de verre. L'acier est fini dans une teinte verte douce typiquement française.
+Dans cet appartement de style loft moderne, le salon et la chambre étaient séparés au départ par un mur massif. Pour favoriser la sensation d’espace et apporter davantage de lumière naturelle à la chambre, nous avons installé une cloison en verre et métal avec un angle arrondi et des portes fines du sol au plafond.
 
-Le look a été modernisé avec des lignes nettes et simples, se concentrant sur la praticité, la circulation de la lumière et l'intégration dans le style moderne de l'appartement.
+Le design s’inspire des façades de cafés parisiens du XXᵉ siècle, avec des cadres métalliques fins et de larges panneaux de verre. L’acier est fini dans une teinte vert doux typiquement française.
