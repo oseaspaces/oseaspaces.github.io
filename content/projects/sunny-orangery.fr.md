@@ -1,8 +1,8 @@
 ---
-title: "Orangerie ensoleillée dans un jardin, Normandie"
+title: "Orangerie lumineuse dans un jardin"
 location: "Normandie, France"
 year: "2020"
-service: "Architecture / design et décoration d'intérieur"
+service: "Architecture & aménagement"
 weight: 2
 images:
   - "/images/projects/sunny_orangery/1.jpeg"
@@ -12,8 +12,8 @@ images:
   - "/images/projects/sunny_orangery/6.png"
 ---
 
-Cette orangerie a été conçue et décorée pour une maison familiale rurale en Normandie. Pour permettre de profiter du jardin et du soleil toute l'année, nous avons conçu et construit une orangerie qui permet à la lumière naturelle d'inonder l'espace, et qui se fond parfaitement avec l'environnement extérieur.
+Cette orangerie a été conçue et décorée pour une maison familiale en milieu rural en Normandie. Pour permettre de profiter du jardin et de la lumière toute l’année, nous avons conçu une structure laissant entrer généreusement la lumière naturelle.
 
-L'orangerie présente un cadre en acier moderne et fin et un toit en verre en appentis. Les larges portes, qui s'ouvrent vers l'extérieur, offrent une connexion ouverte entre l'intérieur et le jardin, permettant une ventilation naturelle pendant les mois d'été.
+L’orangerie présente une structure acier fine et moderne, ainsi qu’une toiture en verre à un seul pan. De larges portes s’ouvrant vers l’extérieur assurent une ventilation naturelle pendant les mois d’été. L’aménagement et la décoration s’inspirent du charme vintage français et du cinéma romantique, avec des détails qui mettent en valeur les couleurs vives des plantes et fleurs environnantes.
 
-La décoration s'inspire du charme français vintage et du cinéma romantique, avec des détails qui mettent en valeur les couleurs des plantes et des fleurs environnantes. En tant que point focal du jardin, cet espace est idéal pour de grands dîners familiaux ou une retraite tranquille pour lire un livre, en profitant de l'environnement verdoyant.
+En tant que point focal du jardin, cet espace est idéal pour les grands repas familiaux ou une retraite tranquille pour lire un livre en profitant du vert alentour.
