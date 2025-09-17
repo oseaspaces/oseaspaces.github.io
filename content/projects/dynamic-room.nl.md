@@ -1,8 +1,8 @@
 ---
-title: "Dynamische kamerscheiding met schuifdeuren in Amsterdam appartement"
+title: "Dynamische ruimteverdeling met schuifdeuren"
 location: "Amsterdam"
 year: "2022"
-service: "Interieurontwerp"
+service: "Interieurarchitectuur"
 weight: 3
 images:
   - "/images/projects/dynamic_room/OSEA_Project_HuisTimoMiles_1.jpg"
@@ -10,6 +10,6 @@ images:
   - "/images/projects/dynamic_room/OSEA_Project_HuisTimoMiles_3.jpg"
 ---
 
-In dit appartement moesten verschillende kamers worden herconfigureerd om de ruimte te maximaliseren. Om verschillende zones te creëren terwijl de stroom van natuurlijk licht behouden bleef, installeerden we subtiele stalen kamerscheidingen met grote schuifdeuren van geribbeld glas.
+In dit appartement in Amsterdam Oost was herindeling van kamers nodig om de ruimte optimaal te benutten. Om aparte zones te creëren zonder natuurlijk licht te verliezen, plaatsten we subtiele stalen wanden met grote schuifdeuren met fluted glas.
 
-Het geribbelde glas vindt een evenwicht, biedt privacy in elke kamer terwijl het licht doorlaat, wat een dynamisch, kleurrijk effect creëert. De schuifdeuren kunnen volledig worden geopend, wat flexibel gebruik van de ruimte mogelijk maakt naar behoefte.
+Het fluted glas biedt privacy in elke ruimte, terwijl het licht op een speelse manier door de ruimtes stroomt. De schuifdeuren kunnen volledig worden geopend voor een flexibele indeling van de woning.
