@@ -17,7 +17,7 @@ title = "Osea Spaces"
     title = "Osea Spaces"
     weight = 2
     [languages.fr.params]
-      description = "OSEA est un studio de design spatial basé à Amsterdam et Marseille. Nous nous spécialisons dans l'architecture intérieure, la fabrication de meubles sur mesure, la scénographie et la direction créative pour les résidences privées, les espaces de vente au détail et les showrooms."
+      description = "OSEA est un studio de design basé à Amsterdam et Marseille, spécialisé dans l'architecture intérieure, la fabrication de meubles sur mesure, la scénographie et la direction créative pour les résidences privées, les espaces de vente au détail et les showrooms."
 
   [languages.nl]
     languageCode = "nl-nl"
