@@ -3,8 +3,9 @@ title: "Over ons"
 layout: "about"
 ---
 
-**OSEA** is een familie-gedreven ruimtelijk ontwerpstudio gevestigd in Amsterdam en Marseille. Wij zijn gespecialiseerd in interieurarchitectuur, setdesign, maatwerk meubelproductie en creatieve richting voor privéwoningen, retailruimtes en showrooms. Als familie brengen we diverse expertise en achtergronden samen om projecten te leveren met technische precisie en persoonlijke signatuur.
+**OSEA** is een creatief familiebedrijf gespecialiseerd in ruimtelijk ontwerp, gevestigd in Amsterdam en Marseille. We ontwerpen interieurs, maken meubels op maat en creëren decors voor woningen, winkels en showrooms. Als familie combineren we diverse expertise en achtergronden om projecten te realiseren met technische precisie en een persoonlijke karakter.
 
-Allard is een bekwame lasser met uitgebreide ervaring in interieur- en meubelbouw. Walt heeft een achtergrond in industrieel ontwerp en technisch tekenen, en weet hoe ideeën te visualiseren van conceptschetsen tot nauwkeurige bouwtekeningen. Julia, die werkt als art director voor film en commercials, brengt ervaring mee in conceptueel setdesign en interieurdecoratië. Samen beheren we complete ruimtelijke ontwerpprojecten, van de eerste schets tot verfijnde constructie en decoratie.
+Allard is een ervaren lasser met ruime ervaring in interieurbouw en meubelproductie op maat. Walt heeft een achtergrond in industrieel ontwerpen en vertaalt ruimtelijke concepten naar technische tekeningen en 3D-modellen. Julia werkt als art-director voor film en commercials, en brengt ervaring mee in decorontwerp en inrichting.
 
-Neem contact met ons op voor een offerte en/of om een project te bespreken.
+Samen werken we aan interieurprojecten van het eerste schetsontwerp tot en met de uiteindelijke installatie, en creëren we ruimtes die licht, karaktervol en functioneel zijn.
+Neem contact met ons op om jouw project te bespreken, we denken graag mee.
