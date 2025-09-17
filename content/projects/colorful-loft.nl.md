@@ -1,5 +1,5 @@
 ---
-title: "Kleurrijke loft scheidingswand in Amsterdam appartement"
+title: "Kleurrijke glazen wand in loft-appartement"
 location: "Amsterdam"
 year: "2021"
 service: "Interieurontwerp / Interieurdecoratie"
@@ -16,6 +16,6 @@ images:
   - "/images/projects/colorful_loft/OSEA_Project_HuisJuul_9.jpg"
 ---
 
-In dit loft-achtige appartement waren de woonkamer en slaapkamer oorspronkelijk gescheiden door een solide muur. Om een groter gevoel van ruimtelijkheid te creëren en meer natuurlijk licht in de slaapkamer te brengen, introduceerden we een glazen en metalen scheidingswand met een gebogen hoek en slanke deuren die van vloer tot plafond openen. Het ontwerp is geïnspireerd door Parijse cafégevel, met slanke metalen frames en grote glazen panelen. Het staal is afgewerkt in een typisch Franse zachte groene tint.
+In dit moderne loft-appartement werden woonkamer en slaapkamer oorspronkelijk gescheiden door een massieve muur. Om meer ruimtelijkheid en natuurlijk licht in de slaapkamer te brengen, ontwierpen we een glazen en metalen scheidingswand met een ronde hoek en smalle deuren van vloer tot plafond.
 
-De look is gemoderniseerd met schone, eenvoudige lijnen, gericht op functionaliteit, lichtstroming en integratie in de moderne stijl van het appartement.
+Het ontwerp is geïnspireerd op Parijse café gevels uit de 20e eeuw, met fijne metalen profielen en grote glazen panelen. Het staal is afgewerkt in een typische Franse zachtgroene tint.
