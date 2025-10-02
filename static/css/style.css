@@ -517,14 +517,12 @@ body {
 }
 
 /* instagram hyperlinks */
-a[href*="instagram.com/*"],
-.jamie-link {
+a[href*="instagram.com"] {
   color: #ea3200;
   text-decoration: none;
 }
 
-a[href*="instagram.com/*"]:hover,
-.jamie-link:hover {
+a[href*="instagram.com"]:hover {
   text-decoration: underline;
 }
 
