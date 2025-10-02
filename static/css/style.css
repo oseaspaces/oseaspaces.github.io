@@ -516,14 +516,14 @@ body {
   display: block;
 }
 
-/* Jamie van Haastere hyperlinks */
-a[href*="instagram.com/jwauw"],
+/* instagram hyperlinks */
+a[href*="instagram.com/*"],
 .jamie-link {
   color: #ea3200;
   text-decoration: none;
 }
 
-a[href*="instagram.com/jwauw"]:hover,
+a[href*="instagram.com/*"]:hover,
 .jamie-link:hover {
   text-decoration: underline;
 }
