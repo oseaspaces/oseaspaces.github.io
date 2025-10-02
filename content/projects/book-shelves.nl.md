@@ -3,7 +3,7 @@ title: "Modulair wandrek in design studio"
 location: "Amsterdam"
 year: "2023"
 service: "Meubelproductie"
-weight: 4
+weight: 100
 images:
   - "/images/projects/book_shelves/1.jpg"
   - "/images/projects/book_shelves/2.jpg"

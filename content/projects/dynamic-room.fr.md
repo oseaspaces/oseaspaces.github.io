@@ -3,7 +3,7 @@ title: "Cloison dynamique avec portes coulissantes"
 location: "Amsterdam"
 year: "2022"
 service: "Architecture d’intérieur"
-weight: 3
+weight: 99
 images:
   - "/images/projects/dynamic_room/OSEA_Project_HuisTimoMiles_1.jpg"
   - "/images/projects/dynamic_room/OSEA_Project_HuisTimoMiles_2.jpg"

@@ -3,7 +3,7 @@ title: "Dynamische ruimteverdeling met schuifdeuren"
 location: "Amsterdam"
 year: "2022"
 service: "Interieurarchitectuur"
-weight: 3
+weight: 99
 images:
   - "/images/projects/dynamic_room/OSEA_Project_HuisTimoMiles_1.jpg"
   - "/images/projects/dynamic_room/OSEA_Project_HuisTimoMiles_2.jpg"

@@ -3,7 +3,7 @@ title: "Orangerie lumineuse dans un jardin"
 location: "Normandie, France"
 year: "2020"
 service: "Architecture & aménagement"
-weight: 2
+weight: 98
 images:
   - "/images/projects/sunny_orangery/1.jpeg"
   - "/images/projects/sunny_orangery/3.png"

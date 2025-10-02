@@ -3,17 +3,17 @@ title: "Structures murales et cadres dans un salon de coiffure"
 location: "Amsterdam"
 year: "2024"
 service: "Fabrication intérieure"
-weight: 0
+weight: 96
 images:
-  - "/images/projects/Hair_Salon/CZN_WEB1.png"
-  - "/images/projects/Hair_Salon/CZN_WEB2.png"
-  - "/images/projects/Hair_Salon/CZN_WEB3.png"
-  - "/images/projects/Hair_Salon/CZN_WEB4.png"
-  - "/images/projects/Hair_Salon/CZN_WEB5.png"
-  - "/images/projects/Hair_Salon/CZN_WEB6.png"
-  - "/images/projects/Hair_Salon/CZN_WEB7.png"
-  - "/images/projects/Hair_Salon/CZN_WEB8.png"
-  - "/images/projects/Hair_Salon/CZN_WEB9.png"
+  - "/images/projects/hair_salon/CZN_WEB1.png"
+  - "/images/projects/hair_salon/CZN_WEB2.png"
+  - "/images/projects/hair_salon/CZN_WEB3.png"
+  - "/images/projects/hair_salon/CZN_WEB4.png"
+  - "/images/projects/hair_salon/CZN_WEB5.png"
+  - "/images/projects/hair_salon/CZN_WEB6.png"
+  - "/images/projects/hair_salon/CZN_WEB7.png"
+  - "/images/projects/hair_salon/CZN_WEB8.png"
+  - "/images/projects/hair_salon/CZN_WEB9.png"
 ---
 
 Chez CZNSTUDIOS à Amsterdam, nous avons réalisé les plans, fabriqué et installé l’intérieur ainsi que les armoires à miroirs. Conception en collaboration avec Jordi van der Oord.

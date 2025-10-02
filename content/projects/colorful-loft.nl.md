@@ -3,7 +3,7 @@ title: "Kleurrijke glazen wand in loft-appartement"
 location: "Amsterdam"
 year: "2021"
 service: "Interieurontwerp"
-weight: 1
+weight: 97
 images:
   - "/images/projects/colorful_loft/OSEA_Project_HuisJuul_2.jpg"
   - "/images/projects/colorful_loft/OSEA_Project_HuisJuul_3.jpg"

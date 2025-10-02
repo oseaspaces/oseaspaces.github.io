@@ -3,7 +3,7 @@ title: "Zonnige oranjerie in tuin"
 location: "Normandië, Frankrijk"
 year: "2020"
 service: "Architectuur & inrichting"
-weight: 2
+weight: 98
 images:
   - "/images/projects/sunny_orangery/1.jpeg"
   - "/images/projects/sunny_orangery/3.png"

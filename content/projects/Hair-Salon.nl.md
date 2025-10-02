@@ -3,17 +3,17 @@ title: "Wandstructuren en frames in kapperszaak"
 location: "Amsterdam"
 year: "2024"
 service: "Interior Fabrication"
-weight: 0
+weight: 96
 images:
-  - "/images/projects/Hair_Salon/CZN_WEB1.png"
-  - "/images/projects/Hair_Salon/CZN_WEB2.png"
-  - "/images/projects/Hair_Salon/CZN_WEB3.png"
-  - "/images/projects/Hair_Salon/CZN_WEB4.png"
-  - "/images/projects/Hair_Salon/CZN_WEB5.png"
-  - "/images/projects/Hair_Salon/CZN_WEB6.png"
-  - "/images/projects/Hair_Salon/CZN_WEB7.png"
-  - "/images/projects/Hair_Salon/CZN_WEB8.png"
-  - "/images/projects/Hair_Salon/CZN_WEB9.png"
+  - "/images/projects/hair_salon/CZN_WEB1.png"
+  - "/images/projects/hair_salon/CZN_WEB2.png"
+  - "/images/projects/hair_salon/CZN_WEB3.png"
+  - "/images/projects/hair_salon/CZN_WEB4.png"
+  - "/images/projects/hair_salon/CZN_WEB5.png"
+  - "/images/projects/hair_salon/CZN_WEB6.png"
+  - "/images/projects/hair_salon/CZN_WEB7.png"
+  - "/images/projects/hair_salon/CZN_WEB8.png"
+  - "/images/projects/hair_salon/CZN_WEB9.png"
 ---
 
 Bij CZNSTUDIOS in Amsterdam hebben we het interieur en de spiegelkasten uitgewerkt, gefabriceerd en geïnstalleerd. Ontworpen in samenwerking met Jordi van der Oord.
