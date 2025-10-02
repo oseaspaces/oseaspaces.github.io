@@ -2,10 +2,9 @@
 title: "Cloison colorée et lumineuse dans Appartement"
 location: "Amsterdam"
 year: "2021"
-service: "Design d'intérieur / Décoration intérieure"
+service: "Design d'intérieur"
 weight: 1
 images:
-  - "/images/projects/colorful_loft/OSEA_Project_HuisJuul_1.jpg"
   - "/images/projects/colorful_loft/OSEA_Project_HuisJuul_2.jpg"
   - "/images/projects/colorful_loft/OSEA_Project_HuisJuul_3.jpg"
   - "/images/projects/colorful_loft/OSEA_Project_HuisJuul_4.jpg"
