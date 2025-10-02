@@ -2,10 +2,9 @@
 title: "Colorful loft partition in Apartment"
 location: "Amsterdam"
 year: "2021"
-service: "Interior architecture / Interior decoration"
+service: "Interior architecture"
 weight: 1
 images:
-  - "/images/projects/colorful_loft/OSEA_Project_HuisJuul_1.jpg"
   - "/images/projects/colorful_loft/OSEA_Project_HuisJuul_2.jpg"
   - "/images/projects/colorful_loft/OSEA_Project_HuisJuul_3.jpg"
   - "/images/projects/colorful_loft/OSEA_Project_HuisJuul_4.jpg"
