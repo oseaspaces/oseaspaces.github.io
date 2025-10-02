@@ -20,4 +20,4 @@ Chez CZNSTUDIOS à Amsterdam, nous avons réalisé les plans, fabriqué et insta
 
 Les structures murales ouvertes, combinées aux barres lumineuses fluorescentes positionnées derrière les cadres bleus, créent un effet dynamique au fur et à mesure que l’on se déplace dans l’espace ou que l’on observe en tant que passant depuis la rue animée d’Amsterdam.
 
-Conception  [Jamie van Haastere](https://instagram.com/jwauw)
+Conception: [Jordi van der Oord](https://www.instagram.com/jordivanderoord/)
