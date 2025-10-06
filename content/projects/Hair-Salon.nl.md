@@ -18,6 +18,6 @@ images:
 
 Bij CZNSTUDIOS in Amsterdam hebben we het interieur en de spiegelkasten uitgewerkt, gefabriceerd en geïnstalleerd. Ontworpen in samenwerking met Jordi van der Oord.
 
-De open wandstructuren, gecombineerd met fluorescerende lichtbalken achter de blauwe kaders, zorgen voor een dynamisch effect terwijl men zich door de ruimte beweegt of als voorbijganger observeert vanaf de drukke Amsterdamse straat.
+De open wandstructuren, gecombineerd met fluorescerende lichtbalken achter de blauwe kaders, zorgen voor een dynamisch effect terwijl men zich door de ruimte beweegt, of wanneer je als voorbijganger de ruimte vanaf buiten ziet.
 
 Concept: [Jordi van der Oord](https://www.instagram.com/jordivanderoord/)
