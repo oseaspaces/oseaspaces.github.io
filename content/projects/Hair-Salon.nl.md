@@ -2,7 +2,7 @@
 title: "Wandstructuren en frames in kapperszaak"
 location: "Amsterdam"
 year: "2024"
-service: "Interior Fabrication"
+service: "Interieurbouw"
 weight: 96
 images:
   - "/images/projects/hair_salon/CZN_WEB1.png"
