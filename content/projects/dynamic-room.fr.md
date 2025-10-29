@@ -5,9 +5,9 @@ year: "2022"
 service: "Architecture d’intérieur"
 weight: 99
 images:
-  - "/images/projects/dynamic_room/OSEA_Project_HuisTimoMiles_1.jpg"
-  - "/images/projects/dynamic_room/OSEA_Project_HuisTimoMiles_2.jpg"
-  - "/images/projects/dynamic_room/OSEA_Project_HuisTimoMiles_3.jpg"
+  - "/images/projects/dynamic_room/OSEA_Project_HuisTimoMiles_1.webp"
+  - "/images/projects/dynamic_room/OSEA_Project_HuisTimoMiles_2.webp"
+  - "/images/projects/dynamic_room/OSEA_Project_HuisTimoMiles_3.webp"
 ---
 
 Dans cet appartement plusieurs pièces devaient être reconfigurées pour maximiser l’espace. Pour créer des zones distinctes tout en préservant la diffusion de la lumière naturelle, nous avons installé des cloisons en acier fines avec de grandes portes coulissantes dotées de verre cannelé.

@@ -5,10 +5,10 @@ year: "2023"
 service: "Furniture Fabrication"
 weight: 100
 images:
-  - "/images/projects/book_shelves/1.jpg"
-  - "/images/projects/book_shelves/2.jpg"
-  - "/images/projects/book_shelves/3.jpg"
-  - "/images/projects/book_shelves/4.jpg"
+  - "/images/projects/book_shelves/1.webp"
+  - "/images/projects/book_shelves/2.webp"
+  - "/images/projects/book_shelves/3.webp"
+  - "/images/projects/book_shelves/4.webp"
 ---
 
 This modular shelving system was developed in collaboration with our friend and interior designer, Jamie van Haasteren for Studio Jop van Bennekom.

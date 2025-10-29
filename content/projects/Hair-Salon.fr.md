@@ -5,15 +5,15 @@ year: "2024"
 service: "Fabrication intérieure"
 weight: 96
 images:
-  - "/images/projects/hair_salon/CZN_WEB1.png"
-  - "/images/projects/hair_salon/CZN_WEB2.png"
-  - "/images/projects/hair_salon/CZN_WEB3.png"
-  - "/images/projects/hair_salon/CZN_WEB4.png"
-  - "/images/projects/hair_salon/CZN_WEB5.png"
-  - "/images/projects/hair_salon/CZN_WEB6.png"
-  - "/images/projects/hair_salon/CZN_WEB7.png"
-  - "/images/projects/hair_salon/CZN_WEB8.png"
-  - "/images/projects/hair_salon/CZN_WEB9.png"
+  - "/images/projects/hair_salon/CZN_WEB1.webp"
+  - "/images/projects/hair_salon/CZN_WEB2.webp"
+  - "/images/projects/hair_salon/CZN_WEB3.webp"
+  - "/images/projects/hair_salon/CZN_WEB4.webp"
+  - "/images/projects/hair_salon/CZN_WEB5.webp"
+  - "/images/projects/hair_salon/CZN_WEB6.webp"
+  - "/images/projects/hair_salon/CZN_WEB7.webp"
+  - "/images/projects/hair_salon/CZN_WEB8.webp"
+  - "/images/projects/hair_salon/CZN_WEB9.webp"
 ---
 
 Chez CZNSTUDIOS à Amsterdam, nous avons réalisé les plans, fabriqué et installé l’intérieur ainsi que les armoires à miroirs. Conception en collaboration avec Jordi van der Oord.

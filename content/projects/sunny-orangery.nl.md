@@ -5,11 +5,11 @@ year: "2020"
 service: "Architectuur & inrichting"
 weight: 98
 images:
-  - "/images/projects/sunny_orangery/1.jpeg"
-  - "/images/projects/sunny_orangery/3.png"
-  - "/images/projects/sunny_orangery/4.png"
-  - "/images/projects/sunny_orangery/5.png"
-  - "/images/projects/sunny_orangery/6.png"
+  - "/images/projects/sunny_orangery/1.webp"
+  - "/images/projects/sunny_orangery/3.webp"
+  - "/images/projects/sunny_orangery/4.webp"
+  - "/images/projects/sunny_orangery/5.webp"
+  - "/images/projects/sunny_orangery/6.webp"
 ---
 
 Deze oranjerie werd ontworpen en ingericht voor een landelijke gezinswoning in Normandië. Om het hele jaar door van de tuin en het zonlicht te kunnen genieten, ontwierpen en bouwden we een oranjerie waarin natuurlijk licht centraal staat.

@@ -5,11 +5,11 @@ year: "2020"
 service: "Architecture & aménagement"
 weight: 98
 images:
-  - "/images/projects/sunny_orangery/1.jpeg"
-  - "/images/projects/sunny_orangery/3.png"
-  - "/images/projects/sunny_orangery/4.png"
-  - "/images/projects/sunny_orangery/5.png"
-  - "/images/projects/sunny_orangery/6.png"
+  - "/images/projects/sunny_orangery/1.webp"
+  - "/images/projects/sunny_orangery/3.webp"
+  - "/images/projects/sunny_orangery/4.webp"
+  - "/images/projects/sunny_orangery/5.webp"
+  - "/images/projects/sunny_orangery/6.webp"
 ---
 
 Cette orangerie a été conçue et décorée pour une maison familiale en milieu rural en Normandie. Pour permettre de profiter du jardin et de la lumière toute l’année, nous avons conçu une structure laissant entrer généreusement la lumière naturelle.

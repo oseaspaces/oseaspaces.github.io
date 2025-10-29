@@ -5,10 +5,10 @@ year: "2023"
 service: "Meubelproductie"
 weight: 100
 images:
-  - "/images/projects/book_shelves/1.jpg"
-  - "/images/projects/book_shelves/2.jpg"
-  - "/images/projects/book_shelves/3.jpg"
-  - "/images/projects/book_shelves/4.jpg"
+  - "/images/projects/book_shelves/1.webp"
+  - "/images/projects/book_shelves/2.webp"
+  - "/images/projects/book_shelves/3.webp"
+  - "/images/projects/book_shelves/4.webp"
 ---
 
 Dit modulaire wandrek werd ontwikkeld in samenwerking met onze vriend en interieurontwerper Jamie van Haasteren, voor Studio Jop van Bennekom.

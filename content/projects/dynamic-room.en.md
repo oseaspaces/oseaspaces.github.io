@@ -5,9 +5,9 @@ year: "2022"
 service: "Interior Design"
 weight: 99
 images:
-  - "/images/projects/dynamic_room/OSEA_Project_HuisTimoMiles_1.jpg"
-  - "/images/projects/dynamic_room/OSEA_Project_HuisTimoMiles_2.jpg"
-  - "/images/projects/dynamic_room/OSEA_Project_HuisTimoMiles_3.jpg"
+  - "/images/projects/dynamic_room/OSEA_Project_HuisTimoMiles_1.webp"
+  - "/images/projects/dynamic_room/OSEA_Project_HuisTimoMiles_2.webp"
+  - "/images/projects/dynamic_room/OSEA_Project_HuisTimoMiles_3.webp"
 ---
 
 In this apartment, several rooms had to be reconfigured to maximize space. To create distinct areas while maintaining the flow of natural light, we installed subtle steel room partitions with large sliding doors featuring fluted glass.

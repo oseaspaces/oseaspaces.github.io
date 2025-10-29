@@ -5,11 +5,11 @@ year: "2020"
 service: "Architecture / interior design & furnishing"
 weight: 98
 images:
-  - "/images/projects/sunny_orangery/1.jpeg"
-  - "/images/projects/sunny_orangery/3.png"
-  - "/images/projects/sunny_orangery/4.png"
-  - "/images/projects/sunny_orangery/5.png"
-  - "/images/projects/sunny_orangery/6.png"
+  - "/images/projects/sunny_orangery/1.webp"
+  - "/images/projects/sunny_orangery/3.webp"
+  - "/images/projects/sunny_orangery/4.webp"
+  - "/images/projects/sunny_orangery/5.webp"
+  - "/images/projects/sunny_orangery/6.webp"
 ---
 
 This orangery was designed and decorated for a rural family home in Normandy. To make it possible to enjoy the garden and sunlight year-round, we designed and built an orangery that allows natural light to flood the space.
