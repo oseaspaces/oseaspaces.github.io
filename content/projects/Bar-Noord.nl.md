@@ -3,9 +3,9 @@ title: "Bar Garage Noord/Sichuan Territory"
 location: "Amsterdam"
 year: "2025"
 service: "Ontwerp & Fabricage"
-weight: 92 (this defines the order of the projects at time of making, there were 4 projects on the website so the new one should be 5)
+weight: 92
 images:
-  - "/images/projects/bar_noord/OSEA_Bar_Web_2:3_1.jpg" (notice underscore: _ )
+  - "/images/projects/bar_noord/OSEA_Bar_Web_2:3_1.jpg"
   - "/images/projects/bar_noord/OSEA_Bar_Web_2:3_2.jpg"
   - "/images/projects/bar_noord/OSEA_Bar_Web_2:3_3.jpg"
 ---
